@@ -30,7 +30,7 @@ function checkWinner() {
   return winningCombinations.some(combination =>
     combination.every(index => board[index] === currentPlayer)
   );
-}
+}    
 
 function restartGame() {
   board.fill('');
